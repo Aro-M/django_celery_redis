@@ -1,6 +1,6 @@
 <h1> Asynchronous Tasks with Django and Celery</h1>
 
-<h3>< Setup </h3>
+<h3> Setup </h3>
 
 ```
 python3 -m venv venv 
