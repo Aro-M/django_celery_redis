@@ -23,9 +23,9 @@ sudo install redis
 (venv) python3 manage.py migrate
 (venv) python3 manage.py runserver
 ```
-
+<hr>
 <h2> Redis server:</h2>
-
+<hr>
 ```
 redis-server
 ```
