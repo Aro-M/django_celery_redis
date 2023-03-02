@@ -31,7 +31,7 @@ redis-server
 <h2>Celery </h2>
 
 ```
-(venv) python3 -m celery -A django_celery worker -l info
+(venv) python3 -m celery -A celery_django worker -l info
 ```
 
 
