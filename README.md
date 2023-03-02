@@ -1,21 +1,20 @@
 <h1> Asynchronous Tasks with Django and Celery</h1>
 
-<i> Setup </i>
+<h3>< Setup </h3>
 
 ```
 python3 -m venv venv 
 source venv/bin/activate
 (venv) python3 -m pip install -r requirements.txt
 ```
-<hr>
 <h3>You'll also need to install Redis on your system: </h3>
 
-<hr>
+
 ```
 sudo install redis
 ```
 
-<hr>
+
 
 <h3> You need to start three processes that need to run at same time: </h3>
 
@@ -23,9 +22,9 @@ sudo install redis
 (venv) python3 manage.py migrate
 (venv) python3 manage.py runserver
 ```
-<hr>
+
 <h2> Redis server:</h2>
-<hr>
+
 ```
 redis-server
 ```
